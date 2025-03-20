@@ -8,7 +8,9 @@ Here, we only deal with additions.
 - json/output.json : contains the response from the critic model(here, Gemini 2.0 flash thinking experimental model) and answer extracted from the response of the critic model as well. 
 
 1465 entries generated initially
+
 1176 of them had errors
+
 1051 of them got correct answers from Gemini(present in the json/output.json)
 
 
