@@ -1,0 +1,462 @@
+[
+  {
+    "id": "prob_0000",
+    "numbers": [
+      45,
+      41
+    ],
+    "expected": 86,
+    "vlm_text": {
+      "raw": "45 + 41 = 86",
+      "extracted": 86,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "45 + 41 = 86",
+      "extracted": 86,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 86",
+      "extracted": 86,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0001",
+    "numbers": [
+      23,
+      96
+    ],
+    "expected": 119,
+    "vlm_text": {
+      "raw": "23 + 96 = 119",
+      "extracted": 119,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "23 + 96 = 119",
+      "extracted": 119,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 119",
+      "extracted": 119,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0002",
+    "numbers": [
+      14,
+      13
+    ],
+    "expected": 27,
+    "vlm_text": {
+      "raw": "14 + 13 = 27",
+      "extracted": 27,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "14 + 13 = 27",
+      "extracted": 27,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 27",
+      "extracted": 27,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0003",
+    "numbers": [
+      39,
+      74
+    ],
+    "expected": 113,
+    "vlm_text": {
+      "raw": "39 + 74 = 113",
+      "extracted": 113,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "39 + 74 = 113",
+      "extracted": 113,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 113",
+      "extracted": 113,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0004",
+    "numbers": [
+      93,
+      99
+    ],
+    "expected": 192,
+    "vlm_text": {
+      "raw": "93 + 99 = 192",
+      "extracted": 192,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "93 + 99 = 192",
+      "extracted": 192,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 192",
+      "extracted": 192,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0005",
+    "numbers": [
+      67,
+      85
+    ],
+    "expected": 152,
+    "vlm_text": {
+      "raw": "67 + 85 = 152",
+      "extracted": 152,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "67 + 85 = 152",
+      "extracted": 152,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 152",
+      "extracted": 152,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0006",
+    "numbers": [
+      30,
+      99
+    ],
+    "expected": 129,
+    "vlm_text": {
+      "raw": "30 + 99 = 129",
+      "extracted": 129,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "30 + 99 = 129",
+      "extracted": 129,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 129",
+      "extracted": 129,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0007",
+    "numbers": [
+      45,
+      29
+    ],
+    "expected": 74,
+    "vlm_text": {
+      "raw": "45 + 29 = 74",
+      "extracted": 74,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "45 + 29 = 74",
+      "extracted": 74,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 74",
+      "extracted": 74,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0008",
+    "numbers": [
+      23,
+      21
+    ],
+    "expected": 44,
+    "vlm_text": {
+      "raw": "23 + 21 = 44",
+      "extracted": 44,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "23 + 21 = 44",
+      "extracted": 44,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 44",
+      "extracted": 44,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0009",
+    "numbers": [
+      55,
+      54
+    ],
+    "expected": 109,
+    "vlm_text": {
+      "raw": "55 + 54 = 109",
+      "extracted": 109,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "55 + 64 = 119",
+      "extracted": 119,
+      "correct": false
+    },
+    "text_llm": {
+      "raw": "Answer: 109",
+      "extracted": 109,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0010",
+    "numbers": [
+      68,
+      78
+    ],
+    "expected": 146,
+    "vlm_text": {
+      "raw": "68 + 78 = 146",
+      "extracted": 146,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "68 + 78 = 146",
+      "extracted": 146,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 146",
+      "extracted": 146,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0011",
+    "numbers": [
+      20,
+      80
+    ],
+    "expected": 100,
+    "vlm_text": {
+      "raw": "20 + 80 = 100",
+      "extracted": 100,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "Answer: 100",
+      "extracted": 100,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 100",
+      "extracted": 100,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0012",
+    "numbers": [
+      83,
+      34
+    ],
+    "expected": 117,
+    "vlm_text": {
+      "raw": "83 + 34 = 117",
+      "extracted": 117,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "83 + 34 = 117",
+      "extracted": 117,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 117",
+      "extracted": 117,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0013",
+    "numbers": [
+      94,
+      39
+    ],
+    "expected": 133,
+    "vlm_text": {
+      "raw": "94 + 39 = 133",
+      "extracted": 133,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "94 + 39 = 133",
+      "extracted": 133,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 133",
+      "extracted": 133,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0014",
+    "numbers": [
+      39,
+      22
+    ],
+    "expected": 61,
+    "vlm_text": {
+      "raw": "39 + 22 = 61",
+      "extracted": 61,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "39 + 22 = 61",
+      "extracted": 61,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 61",
+      "extracted": 61,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0015",
+    "numbers": [
+      68,
+      91
+    ],
+    "expected": 159,
+    "vlm_text": {
+      "raw": "68 + 91 = 159",
+      "extracted": 159,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "68 + 91 = 159",
+      "extracted": 159,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 159",
+      "extracted": 159,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0016",
+    "numbers": [
+      57,
+      55
+    ],
+    "expected": 112,
+    "vlm_text": {
+      "raw": "57 + 55 = 112",
+      "extracted": 112,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "57 + 65 = 122",
+      "extracted": 122,
+      "correct": false
+    },
+    "text_llm": {
+      "raw": "Answer: 112",
+      "extracted": 112,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0017",
+    "numbers": [
+      99,
+      97
+    ],
+    "expected": 196,
+    "vlm_text": {
+      "raw": "99 + 97 = 196",
+      "extracted": 196,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "99 + 97 = 196",
+      "extracted": 196,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 196",
+      "extracted": 196,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0018",
+    "numbers": [
+      78,
+      41
+    ],
+    "expected": 119,
+    "vlm_text": {
+      "raw": "78 + 41 = 119",
+      "extracted": 119,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "78 + 41 = 119",
+      "extracted": 119,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 119",
+      "extracted": 119,
+      "correct": true
+    }
+  },
+  {
+    "id": "prob_0019",
+    "numbers": [
+      58,
+      44
+    ],
+    "expected": 102,
+    "vlm_text": {
+      "raw": "58 + 44 = 102",
+      "extracted": 102,
+      "correct": true
+    },
+    "vlm_vision": {
+      "raw": "58 + 44 = 102",
+      "extracted": 102,
+      "correct": true
+    },
+    "text_llm": {
+      "raw": "Answer: 102",
+      "extracted": 102,
+      "correct": true
+    }
+  }
+]

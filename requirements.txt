@@ -1,0 +1,17 @@
+# Local: Step 1 (LM Studio / OpenAI-compatible endpoint)
+openai>=1.0
+
+# Local: Step 3
+google-genai>=1.0
+tqdm>=4.0
+
+# Kaggle-only (CUDA required): Steps 4
+# torch>=2.4
+# transformers>=4.46
+# datasets>=2.16
+# trl>=0.7
+# unsloth>=2025.3
+# bitsandbytes
+# accelerate>=0.34
+# xformers>=0.0.27
+# sentencepiece>=0.2
